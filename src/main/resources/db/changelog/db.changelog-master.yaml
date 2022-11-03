@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+      file: /db/changelog/changes/create-movie-character-table.sql
+  - include:
+      file: /db/changelog/changes/add-external-id-column-to-movie-character-table.sql
+  - include:
+      file: /db/changelog/changes/add-species-column-to-movie-character.sql
+  - include:
+      file: /db/changelog/changes/add-type-column-to-movie-character.sql
+  - include:
+      file: /db/changelog/changes/add-image-column-to-movie-character.sql
+  - include:
+      file: /db/changelog/changes/add-created-column-to-movie-character.sql
